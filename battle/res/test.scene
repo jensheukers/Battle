@@ -1,0 +1,51 @@
+{
+    "camerapos": [
+        0.0,
+        0.0
+    ],
+    "entities": [
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/placeholder.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,1.000000,1.000000"
+                        },
+                        {
+                            "SetBlendColor": "7,255,0,255"
+                        }
+                    ]
+                },
+                {
+                    "name": "class BoxCollider",
+                    "properties": [
+                        {
+                            "DrawDebug": "0"
+                        },
+                        {
+                            "Outer": "512.000000,32.000000"
+                        },
+                        {
+                            "ScaleToOwner": "205"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                288.0
+            ],
+            "scale": [
+                512.0,
+                32.0
+            ],
+            "tag": "Entity"
+        }
+    ],
+    "kvps": []
+}
