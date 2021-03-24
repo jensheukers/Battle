@@ -177,6 +177,14 @@ add_custom_command(TARGET Engine POST_BUILD
 #------------------------------------------------------
 add_executable( Battle
 	battle/main.cpp
+	battle/source/gamestate.cpp
+	battle/source/gamestate.h
+	battle/source/player.cpp
+	battle/source/player.h
+	battle/source/components/healthcomponent.cpp
+	battle/source/components/healthcomponent.h
+	battle/source/components/movementcomponent.cpp
+	battle/source/components/movementcomponent.h
 )
 
 target_link_libraries(Battle
