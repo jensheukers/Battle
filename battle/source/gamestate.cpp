@@ -9,9 +9,31 @@ Scene* GameState::ReadScene(std::string path) {
 	return scene;
 }
 
+Player* GameState::SpawnPlayer() {
+	Player* player = new Player();
+	SceneManager::GetActiveScene()->AddChild(player);
+
+	return player;
+}
+
 GameState::GameState(StringVector levels) {
 	this->levels = levels;
-	this->_curLevIndex = 0;
+	this->_curLevIndex = -1;
+
+	this->onLevelStartEvent.AddLambda([=]() {
+		if (SceneManager::GetActiveScene()->GetKeyValue("BeginGameplay") == "True") {
+			//Spawn Players
+			players.push_back(SpawnPlayer());
+		}
+	});
+
+	//Cleanup
+	this->onLevelFinishedEvent.AddLambda([=]() {
+		for (size_t i = 0; i < players.size(); i++) {
+			delete players[i];
+			players.erase(players.begin() + i);
+		}
+	});
 }
 
 void GameState::NextLevel() {

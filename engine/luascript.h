@@ -72,6 +72,13 @@ public:
 	static int Run(std::string script);
 
 	/**
+	* Runs a luafile
+	* * @param file, the file to execute
+	* *@ return int, returns int for error checking
+	*/
+	static int RunFile(std::string path);
+
+	/**
 	* Runs a function in lua.
 	* @param file, The script to execute
 	* @param function, The function to execute

@@ -30,7 +30,7 @@
                             "Outer": "512.000000,32.000000"
                         },
                         {
-                            "ScaleToOwner": "205"
+                            "ScaleToOwner": "1"
                         }
                     ]
                 }
@@ -47,5 +47,10 @@
             "tag": "Entity"
         }
     ],
-    "kvps": []
+    "kvps": [
+        {
+            "keyname": "BeginGameplay",
+            "value": "True"
+        }
+    ]
 }

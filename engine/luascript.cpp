@@ -86,6 +86,10 @@ int LuaScript::Run(std::string script) {
 	return luaL_dostring(LuaScript::GetInstance()->state, script.c_str());
 }
 
+int LuaScript::RunFile(std::string path) {
+	return luaL_dofile(LuaScript::GetInstance()->state, path.c_str());
+}
+
 std::string LuaScript::RunFunction(std::string file, std::string function, std::vector<std::string> arguments) {
 	std::string absolutePath = Core::GetExecutableDirectoryPath();
 	absolutePath.append(file);
@@ -101,7 +105,7 @@ std::string LuaScript::RunFunction(std::string file, std::string function, std::
 			lua_pushstring(LuaScript::GetInstance()->state, arguments[i].c_str());
 		}
 		size_t num_args = arguments.size();
-		lua_pcall(LuaScript::GetInstance()->state, num_args, 1, 0); // We expect 1 return
+		lua_call(LuaScript::GetInstance()->state, num_args, 1, 0); // We expect 1 return
 		if (lua_tostring(LuaScript::GetInstance()->state, -1)) {
 			std::string luaReturn = "Lua: ";
 			luaReturn.append(lua_tostring(LuaScript::GetInstance()->state, -1)); // Get return value from lua
