@@ -14,7 +14,9 @@ private:
 
 	Scene* ReadScene(std::string path);
 
-	Player* SpawnPlayer();
+	std::vector<class ControlScheme> controlSchemes;
+
+	Player* SpawnPlayer(ControlScheme& scheme);
 public:
 	Delegate onLevelFinishedEvent;
 	Delegate onLevelStartEvent;

@@ -5,6 +5,8 @@
 #include <component.h>
 #include <math/vec2.h>
 
+#include <input.h>
+
 enum Direction {
 	Up,
 	Down,
@@ -12,13 +14,26 @@ enum Direction {
 	Right
 };
 
+struct ControlScheme {
+	int left;
+	int right;
+	int jump;
+
+	ControlScheme(int left = KEYCODE_A, int right = KEYCODE_D, int jump = KEYCODE_SPACE) {
+		this->left = left;
+		this->right = right;
+		this->jump = jump;
+	}
+};
+
 //Movement component requires a rigidbody on entity
 class MovementComponent : public Component {
 private:
 	class RigidBody* rigidBody; // Rigidbody instance
-
 	Direction direction;
 public:
+	ControlScheme controlScheme;
+
 	float movementSpeed = 200.f;
 	float jumpForce = 400.f;
 

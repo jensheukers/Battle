@@ -1,0 +1,43 @@
+{
+    "frameTime": 0.25,
+    "frames": [
+        {
+            "leftDown": [
+                0.5,
+                0.875
+            ],
+            "leftUp": [
+                0.5,
+                0.75
+            ],
+            "rightDown": [
+                0.625,
+                0.875
+            ],
+            "rightUp": [
+                0.625,
+                0.75
+            ]
+        },
+        {
+            "leftDown": [
+                0.625,
+                0.875
+            ],
+            "leftUp": [
+                0.625,
+                0.75
+            ],
+            "rightDown": [
+                0.75,
+                0.875
+            ],
+            "rightUp": [
+                0.75,
+                0.75
+            ]
+        }
+    ],
+    "mirrored": false,
+    "name": "Punch"
+}

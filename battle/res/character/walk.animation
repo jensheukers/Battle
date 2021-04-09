@@ -1,0 +1,43 @@
+{
+    "frameTime": 0.25,
+    "frames": [
+        {
+            "leftDown": [
+                0.125,
+                0.875
+            ],
+            "leftUp": [
+                0.125,
+                0.75
+            ],
+            "rightDown": [
+                0.25,
+                0.875
+            ],
+            "rightUp": [
+                0.25,
+                0.75
+            ]
+        },
+        {
+            "leftDown": [
+                0.25,
+                0.875
+            ],
+            "leftUp": [
+                0.25,
+                0.75
+            ],
+            "rightDown": [
+                0.375,
+                0.875
+            ],
+            "rightUp": [
+                0.375,
+                0.75
+            ]
+        }
+    ],
+    "mirrored": false,
+    "name": "Walk"
+}

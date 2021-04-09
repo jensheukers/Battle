@@ -1,6 +1,8 @@
 #include <entity.h>
 
+#include "components/movementcomponent.h"
+
 class Player : public Entity {
 public:
-	Player();
+	Player(ControlScheme& scheme);
 };

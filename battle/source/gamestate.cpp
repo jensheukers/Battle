@@ -9,8 +9,8 @@ Scene* GameState::ReadScene(std::string path) {
 	return scene;
 }
 
-Player* GameState::SpawnPlayer() {
-	Player* player = new Player();
+Player* GameState::SpawnPlayer(ControlScheme& scheme) {
+	Player* player = new Player(scheme);
 	SceneManager::GetActiveScene()->AddChild(player);
 
 	return player;
@@ -23,7 +23,11 @@ GameState::GameState(StringVector levels) {
 	this->onLevelStartEvent.AddLambda([=]() {
 		if (SceneManager::GetActiveScene()->GetKeyValue("BeginGameplay") == "True") {
 			//Spawn Players
-			players.push_back(SpawnPlayer());
+			int amountPlayers = std::stoi(SceneManager::GetActiveScene()->GetKeyValue("AmountPlayers"));
+
+			for (int i = 0; i < amountPlayers; i++) {
+				players.push_back(SpawnPlayer(controlSchemes[i]));
+			}
 		}
 	});
 
@@ -34,6 +38,11 @@ GameState::GameState(StringVector levels) {
 			players.erase(players.begin() + i);
 		}
 	});
+
+	//Player 1
+	this->controlSchemes.push_back(ControlScheme());
+	//Player 2
+	this->controlSchemes.push_back(ControlScheme(KEYCODE_LEFT, KEYCODE_RIGHT, KEYCODE_KP_ENTER));
 }
 
 void GameState::NextLevel() {

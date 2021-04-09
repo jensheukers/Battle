@@ -5,9 +5,6 @@
 #include <entity.h>
 #include <components/rigidbody.h>
 
-//Get Input
-#include <input.h>
-
 MovementComponent::MovementComponent() {
 	direction = Direction::Right;
 }
@@ -19,15 +16,15 @@ void MovementComponent::BeginPlay() {
 }
 
 void MovementComponent::Update() {
-	if (Input::GetKey(KEYCODE_D)) {
+	if (Input::GetKey(controlScheme.right)) {
 		this->StepRight(movementSpeed);
 	}
 
-	if (Input::GetKey(KEYCODE_A)) {
+	if (Input::GetKey(controlScheme.left)) {
 		this->StepLeft(movementSpeed);
 	}
 
-	if (Input::GetKeyDown(KEYCODE_SPACE)) {
+	if (Input::GetKeyDown(controlScheme.jump)) {
 		this->Jump(jumpForce);
 	}
 }
