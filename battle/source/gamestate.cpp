@@ -42,7 +42,7 @@ GameState::GameState(StringVector levels) {
 	//Player 1
 	this->controlSchemes.push_back(ControlScheme());
 	//Player 2
-	this->controlSchemes.push_back(ControlScheme(KEYCODE_LEFT, KEYCODE_RIGHT, KEYCODE_KP_ENTER));
+	this->controlSchemes.push_back(ControlScheme(KEYCODE_LEFT, KEYCODE_RIGHT, KEYCODE_KP_ENTER, KEYCODE_KP_0));
 }
 
 void GameState::NextLevel() {

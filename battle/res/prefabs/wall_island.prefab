@@ -1,0 +1,1050 @@
+{
+    "components": [],
+    "entities": [
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.937500,0.062500,0.937500,0.000000,1.000000,0.062500,1.000000"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                0.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.937500,0.125000,0.937500,0.062500,1.000000,0.125000,1.000000"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                0.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.937500,0.187500,0.937500,0.125000,1.000000,0.187500,1.000000"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                0.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                32.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                64.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                96.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                128.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.812500,0.062500,0.812500,0.000000,0.875000,0.062500,0.875000"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                352.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.812500,0.187500,0.812500,0.125000,0.875000,0.187500,0.875000"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                352.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.812500,0.125000,0.812500,0.062500,0.875000,0.125000,0.875000"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                352.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                128.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                64.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                96.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                32.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                64.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                96.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                128.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                32.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                192.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                224.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                256.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                288.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                320.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                160.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                192.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                224.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                256.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                288.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.000000,0.875000,0.062500,0.875000,0.000000,0.937500,0.062500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                0.0,
+                320.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.125000,0.875000,0.187500,0.875000,0.125000,0.937500,0.187500,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                64.0,
+                160.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                160.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                192.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                224.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                256.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                288.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class Sprite",
+                    "properties": [
+                        {
+                            "Texture": "res/terrain.tga"
+                        },
+                        {
+                            "SetUV": "0.062500,0.875000,0.125000,0.875000,0.062500,0.937500,0.125000,0.937500"
+                        },
+                        {
+                            "SetBlendColor": "255,255,255,255"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                32.0,
+                320.0
+            ],
+            "scale": [
+                32.0,
+                32.0
+            ],
+            "tag": "Entity"
+        },
+        {
+            "components": [
+                {
+                    "name": "class BoxCollider",
+                    "properties": [
+                        {
+                            "DrawDebug": "1"
+                        },
+                        {
+                            "Outer": "64.000000,350.000000"
+                        },
+                        {
+                            "ScaleToOwner": "205"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "position": [
+                16.0,
+                16.0
+            ],
+            "scale": [
+                64.0,
+                350.0
+            ],
+            "tag": "Entity"
+        }
+    ],
+    "position": [
+        250.0,
+        0.0
+    ],
+    "scale": [
+        0.0,
+        2.0
+    ],
+    "tag": "Wall_Island"
+}

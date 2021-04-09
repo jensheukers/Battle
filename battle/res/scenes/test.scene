@@ -4,7 +4,7 @@
         0.0
     ],
     "entities": [
-        {
+                {
             "components": [
                 {
                     "name": "class Sprite",
@@ -16,35 +16,73 @@
                             "SetUV": "0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,1.000000,1.000000"
                         },
                         {
-                            "SetBlendColor": "7,255,0,255"
-                        }
-                    ]
-                },
-                {
-                    "name": "class BoxCollider",
-                    "properties": [
-                        {
-                            "DrawDebug": "0"
-                        },
-                        {
-                            "Outer": "512.000000,32.000000"
-                        },
-                        {
-                            "ScaleToOwner": "1"
+                            "SetBlendColor": "18,190,255,255"
                         }
                     ]
                 }
             ],
             "entities": [],
             "position": [
-                64.0,
-                288.0
+                0.0,
+                0.0
             ],
             "scale": [
-                512.0,
-                32.0
+                1000.0,
+                1000.0
             ],
             "tag": "Entity"
+        },
+        {
+            "isPrefab": true,
+            "path": "res/prefabs/wall_island.prefab",
+            "position": [
+                250.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                2.0
+            ],
+            "tag": "Wall_Island"
+        },
+        {
+            "isPrefab": true,
+            "path": "res/prefabs/square.prefab",
+            "position": [
+                100.0,
+                100.0
+            ],
+            "scale": [
+                0.0,
+                2.0
+            ],
+            "tag": "square"
+        },
+        {
+            "isPrefab": true,
+            "path": "res/prefabs/square.prefab",
+            "position": [
+                20.0,
+                260.0
+            ],
+            "scale": [
+                0.0,
+                2.0
+            ],
+            "tag": "square"
+        },
+        {
+            "isPrefab": true,
+            "path": "res/prefabs/small_island.prefab",
+            "position": [
+                0.0,
+                450.0
+            ],
+            "scale": [
+                0.0,
+                2.0
+            ],
+            "tag": "small_island"
         }
     ],
     "kvps": [
@@ -54,7 +92,7 @@
         },
 		{
             "keyname": "AmountPlayers",
-            "value": "1"
+            "value": "2"
         }
     ]
 }

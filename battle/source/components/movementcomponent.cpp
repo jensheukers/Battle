@@ -43,6 +43,10 @@ void MovementComponent::Update() {
 	if (Input::GetKeyDown(controlScheme.jump)) {
 		this->Jump(jumpForce);
 	}
+
+	if (Input::GetKeyDown(controlScheme.punch)) {
+		this->Punch();
+	}
 }
 
 void MovementComponent::StepLeft(float speed) {
@@ -65,6 +69,10 @@ void MovementComponent::Jump(float force) {
 	if (!rigidBody->DownCastPositive()) return;
 	rigidBody->AddForce(Vec2(0, -force));
 	this->direction = Direction::Up;
+}
+
+void MovementComponent::Punch() {
+	this->SetAnimationState("Punch");
 }
 
 Direction MovementComponent::GetDirection() {

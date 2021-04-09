@@ -18,11 +18,13 @@ struct ControlScheme {
 	int left;
 	int right;
 	int jump;
+	int punch;
 
-	ControlScheme(int left = KEYCODE_A, int right = KEYCODE_D, int jump = KEYCODE_SPACE) {
+	ControlScheme(int left = KEYCODE_A, int right = KEYCODE_D, int jump = KEYCODE_SPACE, int punch = KEYCODE_F) {
 		this->left = left;
 		this->right = right;
 		this->jump = jump;
+		this->punch = punch;
 	}
 };
 
@@ -48,6 +50,7 @@ public:
 	void StepLeft(float speed);
 	void StepRight(float speed);
 	void Jump(float force);
+	void Punch();
 
 	Direction GetDirection();
 };
