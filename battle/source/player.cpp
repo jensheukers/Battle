@@ -20,6 +20,9 @@ Player::Player(ControlScheme& scheme) {
 	this->GetComponent<Sprite>()->SetTexture(TextureLoader::LoadTarga("res/character/character.tga"));
 	this->GetComponent<Animator>()->AddAnimation("res/character/walk.animation");
 	this->GetComponent<Animator>()->AddAnimation("res/character/punch.animation");
+	this->GetComponent<Animator>()->AddAnimation("res/character/idle.animation");
+
+	this->GetComponent<Animator>()->SetActiveAnimation("Idle");
 
 	this->GetComponent<MovementComponent>()->controlScheme = scheme;
 }

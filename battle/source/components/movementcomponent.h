@@ -31,6 +31,8 @@ class MovementComponent : public Component {
 private:
 	class RigidBody* rigidBody; // Rigidbody instance
 	Direction direction;
+
+	void SetAnimationState(std::string name);
 public:
 	ControlScheme controlScheme;
 
